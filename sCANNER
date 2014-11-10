@@ -1,0 +1,42 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package ed;
+
+
+import java.util.Scanner;
+
+
+public class Maina {
+
+    
+    public static void main(String[] args) {
+        boolean a = false, b = false, c  = false;
+
+               Scanner keyboard = new Scanner (System.in);
+
+        System.out.println("Please choose a letter");
+        keyboard.hasNextBoolean();
+  if (a == b == c)
+   {
+  System.out.println("X");
+
+  }
+      else if (a==c)
+  {
+  System.out.println("y");
+  }
+else if (b==c)
+  {
+  System.out.println("z");
+  }
+else
+  {
+  System.out.println("z");
+  }
+
+    }
+
+}

@@ -1,0 +1,23 @@
+
+package newclass;
+
+
+
+
+
+public class NewClass
+{
+public static void main (String [] args)
+{
+
+int x, y, z, a = 0;
+
+
+	for (y = 20; y > 0; y--)
+	for (z = 1; z <= 1000; z *=10) {
+	a++;
+	System.out.println("a = " + a + "\tx = " + x + "\ty = " + y + "\tz = " + z);
+	}
+}
+}
+

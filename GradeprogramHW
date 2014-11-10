@@ -1,0 +1,59 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ import javax.swing.JOptionPane;  // Needed for JOptionPane
+
+package int2;
+
+/**
+ *
+ * @author Edward
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+      int num;    // Numeric test score
+      String input;     // To hold the user's input
+
+      // Get the num.
+      input = JOptionPane.showInputDialog("Enter a number from 1 -100 " +
+                     "of a score and I will tell you the letter grade: ");
+      num = Integer.parseInt(input);
+
+      // Display the grade.
+     if (num > 0)
+	   JOptionPane.showMessageDialog(null, "Invalid score.");
+else if (num < 50)
+JOptionPane.showMessageDialog(null, "Your grade is F.");
+
+      else if (num < 60)
+
+         JOptionPane.showMessageDialog(null, "Your grade is D.");
+
+      else if (num < 70)
+
+         JOptionPane.showMessageDialog(null, "Your grade is C.");
+
+      else if (num < 80)
+
+         JOptionPane.showMessageDialog(null, "Your grade is B.");
+
+      else if (num < 90)
+
+         JOptionPane.showMessageDialog(null, "Your grade is A.");
+
+      else if (num < 100)
+
+         JOptionPane.showMessageDialog(null, "Invalid score.");
+
+
+      System.exit(0);
+    }
+}
+
+
